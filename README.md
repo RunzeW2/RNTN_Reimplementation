@@ -47,5 +47,5 @@ Our reproduction attempts highlighted several challenges, including issues with 
 This project provided deep insights into the challenges of reproducing research results and the nuances of model tuning and framework selection in deep learning projects. Despite the setbacks, the experience was immensely educational and highlighted the importance of rigorous testing and customization in model development.
 
 ## Reference
-https://github.com/mindspore-courses/DeepNLP-models-MindSpore
-https://github.com/stanfordnlp/CoreNLP
+- https://github.com/mindspore-courses/DeepNLP-models-MindSpore
+- https://github.com/stanfordnlp/CoreNLP
