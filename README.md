@@ -24,12 +24,12 @@ The traditional RNTN model uses tensor and matrix multiplications to handle the 
 
 To enhance the traditional RNTN model, we integrated BERT for its sophisticated pre-trained representations and added an LSTM layer to address the vanishing gradient issue. Despite our efforts, the accuracy achieved was 68.24%.
 
-## Training Cost Comparison
+## Training Runtime Comparison
 
-The cost of training the models on an A100 GPU on Google Colab is as follows:
+The runtimes for training the models on an A100 GPU on Google Colab are as follows:
 
-- Traditional RNTN: **$7**
-- RNTN with BERT and LSTM: **$82**
+- Traditional RNTN: Approximately 2.82 hours
+- RNTN with BERT and LSTM: Approximately 33.06 hours
 
 ## Accuracy Comparison
 
