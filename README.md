@@ -40,6 +40,10 @@ The accuracy of the models is summarized below:
 
 ## Training Loss Comparison
 
+The training loss fluctuates more with BERT and LSTM models due to their higher dimensionality compared to the traditional RNTN method. As shown in the image, the RNTN converges faster, indicating a more straightforward path to the local minimum. The higher dimensionality of BERT and LSTM models makes finding the local minimum more challenging.
+
+![Training Loss](./Training_Loss.png)
+
 ## Reflection on Outcomes
 
 Our reproduction attempts highlighted several challenges, including issues with vanishing gradients, overfitting, and model tuning. The integration of BERT did not yield the expected performance improvements, suggesting that pre-trained models may require significant customization for specific tasks like fine-grained sentiment analysis.
