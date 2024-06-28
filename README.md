@@ -38,6 +38,8 @@ The accuracy of the models is summarized below:
 - Traditional RNTN: **69.02%**
 - RNTN with BERT and LSTM: **68.24%**
 
+## Training Loss Comparison
+
 ## Reflection on Outcomes
 
 Our reproduction attempts highlighted several challenges, including issues with vanishing gradients, overfitting, and model tuning. The integration of BERT did not yield the expected performance improvements, suggesting that pre-trained models may require significant customization for specific tasks like fine-grained sentiment analysis.
